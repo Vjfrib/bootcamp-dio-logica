@@ -15,13 +15,13 @@ class Carro {
   }
 
   jsonar() {
-    
+
     const carroInfo = {
       anoDaMaquina: this.anoDoBagui,
       corDaMaquina: this.corDoBagui,
       modeloDaMaquina: this.modeloDoBagui
     };
-    
+
     console.log(JSON.stringify(carroInfo));
   }
 
