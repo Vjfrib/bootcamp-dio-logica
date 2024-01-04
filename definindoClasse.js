@@ -28,3 +28,4 @@ class Carro {
 }
 
 // Vou tentar exportar
+export default Carro;
