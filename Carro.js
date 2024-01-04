@@ -28,4 +28,6 @@ class Carro {
 }
 
 // Vou tentar exportar
-export { Carro };
+// export { Carro };
+
+module.exports = Carro;
